@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css//style.css" />
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <div class="flex min-h-screen items-center justify-center bg-cyan-50">
+      <!-- Card -->
+      <div class="m-3 rounded-2xl bg-white p-4 shadow-2xl md:p-40">
+        <!-- Menu -->
+        <div class="flex flex-col justify-end gap-5 text-center md:flex-row">
+          <a href="#">Vector</a>
+          <a href="#">Illustrations</a>
+          <a href="#">Images</a>
+          <a href="#">Icons</a>
+        </div>
+        <!-- Search and upload -->
+        <div
+          class="mt-16 flex flex-col items-stretch justify-between gap-4 md:flex-row"
+        >
+          <div
+            class="flex flex-row border border-x-0 border-t-0 border-gray-200 font-thin"
+          >
+            <input
+              type="text"
+              placeholder="Search"
+              class="h-12 min-w-full border-0 focus:outline-none"
+            />
+          </div>
+          <button
+            class="h-14 rounded-lg bg-black px-4 text-lg text-white duration-200 hover:border hover:border-black hover:bg-white hover:text-black"
+          >
+            Upload
+          </button>
+        </div>
+        <!-- Images -->
+        <div class="mt-10 grid gap-4">
+          <img src="./images/image1.jpg" alt="" class="max-w-xs" />
+          <img src="./images/image2.jpg" alt="" class="max-w-xs" />
+          <img src="./images/image3.jpg" alt="" class="max-w-xs" />
+          <img src="./images/image4.jpg" alt="" class="max-w-xs" />
+          <img src="./images/image5.jpg" alt="" class="max-w-xs" />
+          <img src="./images/image6.jpg" alt="" class="max-w-xs" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
